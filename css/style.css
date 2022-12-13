@@ -1,0 +1,99 @@
+
+.header img {
+	width: 100%;
+}
+.menu ul {
+	list-style: none;
+}
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+.menu li {
+	padding:10px 0;
+}
+.menu li:nth-of-type(1) {
+	background-color: black;
+	border: 2px solid black;
+	width: 100px;
+	padding: 10px;
+	border-radius: 20px 2px 10px;
+	margin: 10px;
+	transition: all 1s linear 0s;
+}
+.menu li:nth-of-type(2) {
+	background-color: black;
+	border: 2px solid black;
+	width: 100px;
+	padding: 10px;
+	border-radius: 20px 2px 10px;
+	margin: 10px;
+	transition: all 1s ease 0s;	
+}
+.menu li:nth-of-type(3) {
+	background-color: black;
+	border: 2px solid black;
+	width: 100px;
+	padding: 10px;
+	border-radius: 20px 2px 10px;
+	margin: 10px;
+	transition: all 1s linear 0s;
+
+}
+.menu li:nth-of-type(4) {
+	background-color:black;
+	border: 2px solid black;
+	width: 100px;
+	padding: 10px;
+	border-radius: 20px 2px 10px;
+	margin: 10px;
+	transition: all 1s ease 0s;	
+}
+.menu li:hover {
+	width: 120px;
+}
+.main {
+	width: 75%;
+	float: right;
+}
+.aside {
+	width: 24%;
+	float: left;
+}
+.footer img {
+	width: 100%;
+}
+.figure1:hover {
+	transform: scaleX(2);
+}
+.figure1 {
+	width: 700px;
+	margin: 5px auto;
+	transition: all 2s linear 0s;
+}
+.figure {
+	width: 400px;
+	transition: all 2s ease 0s;
+	float: left;
+}
+.figure:hover {
+	transform: translate(20px,10px);
+	box-shadow: 10px 5px 5px grey;
+}
+footer {
+	clear: both;
+}
+.figure2 img {
+	width: 200px;
+}
+.figure3 img{
+ 	width: 600px;
+ 	height: 300px;
+ 	float: right;
+}
+.figure3 {
+	transition: all 2s linear 0s;
+}
+.figure3:hover {
+	transform: translate(20px,10px);
+}
